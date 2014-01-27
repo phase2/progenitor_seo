@@ -1,0 +1,35 @@
+<?php
+/**
+ * @file
+ * Installation routines for the Phase2 Admin module.
+ */
+
+/**
+ * Implements hook_install().
+ */
+function phase2_seo_install() {
+  phase2_variable_default('pathauto_node_pattern', '[node:content-type]/[node:title]');
+}
+
+/**
+ * @todo
+ *   In the event we add a Phase2 utility module, add it as a dependency and
+ *   drop this function.
+ */
+if (!function_exists('phase2_variable_default')) {
+  /**
+   * "Soft"-set a configuration value.
+   *
+   * This function wraps variable_set(), allowing you to set a variable only
+   * if it is not already specified by the site. This allows setting sane
+   * defaults different from the modules using the variable, but not overriding
+   * any intended configurations.
+   */
+  function phase2_variable_default($name, $value) {
+    global $conf;
+
+    if (!isset($conf[$name])) {
+      variable_set($name, $value);
+    }
+  }
+}

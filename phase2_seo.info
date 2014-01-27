@@ -1,0 +1,11 @@
+name = Phase2 SEO
+description = Provides SEO-friendly tools and site behaviors.
+core = 7.x
+package = Phase2
+
+dependencies[] = pathauto
+dependencies[] = redirect
+dependencies[] = globalredirect
+dependencies[] = xmlsitemap
+
+
