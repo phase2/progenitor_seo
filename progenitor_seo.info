@@ -1,7 +1,7 @@
-name = Phase2 SEO
+name = Progenitor SEO
 description = Provides SEO-friendly tools and site behaviors.
 core = 7.x
-package = Phase2
+package = Progenitor
 
 dependencies[] = pathauto
 dependencies[] = redirect

@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * Installation routines for the Phase2 Admin module.
+ * Installation routines for the Progenitor SEO module.
  */
 
 /**
  * Implements hook_install().
  */
-function phase2_seo_install() {
+function progenitor_seo_install() {
   phase2_variable_default('pathauto_node_pattern', '[node:content-type]/[node:title]');
 }
 
