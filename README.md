@@ -1,4 +1,4 @@
-# Phase2 SEO
+# Progenitor SEO
 
 This Stack module provides a recipe for Search-Engine optimization, URI, and
 metadata management.
