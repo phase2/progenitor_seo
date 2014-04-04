@@ -31,3 +31,7 @@ projects[xmlsitemap][download][revision] = bbce7d63e2394be3ee53d85297daec5e0d291
 projects[metatag][type] = module
 projects[metatag][subdir] = contrib
 projects[metatag][version] = 1.0-beta9
+
+projects[transliteration][type] = module
+projects[transliteration][subdir] = contrib
+projects[transliteration][version] = 3.2
