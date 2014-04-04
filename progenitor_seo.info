@@ -7,5 +7,4 @@ dependencies[] = pathauto
 dependencies[] = redirect
 dependencies[] = globalredirect
 dependencies[] = xmlsitemap
-
-
+dependencies[] = transliteration
