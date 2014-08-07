@@ -23,10 +23,7 @@ projects[globalredirect][version] = 1.5
 
 projects[xmlsitemap][type] = module
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][download][type] = git
-projects[xmlsitemap][download][branch] = 7.x-2.x
-projects[xmlsitemap][download][url] = http://git.drupal.org/project/xmlsitemap.git
-projects[xmlsitemap][download][revision] = bbce7d63e2394be3ee53d85297daec5e0d291298
+projects[xmlsitemap][version] = 2.0
 
 projects[metatag][type] = module
 projects[metatag][subdir] = contrib
