@@ -1,6 +1,7 @@
 # Progenitor SEO
 
-This Stack module provides a recipe for Search-Engine optimization, URI, and
+This [Progenitor Stack](http://github.com/phase2/progenitor) provides the
+dependencies and a module for Search-Engine optimization, URI, and
 metadata management.
 
 ## Use Cases
