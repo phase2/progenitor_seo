@@ -27,7 +27,7 @@ projects[xmlsitemap][version] = 2.0
 
 projects[metatag][type] = module
 projects[metatag][subdir] = contrib
-projects[metatag][version] = 1.1
+projects[metatag][version] = 1.4
 
 projects[transliteration][type] = module
 projects[transliteration][subdir] = contrib
