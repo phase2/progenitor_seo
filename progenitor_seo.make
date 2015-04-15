@@ -11,7 +11,7 @@ projects[pathauto][patch][936222] = http://www.drupal.org/files/pathauto-persist
 
 projects[token][type] = module
 projects[token][subdir] = contrib
-projects[token][version] = 1.5
+projects[token][version] = 1.6
 
 projects[redirect][type] = module
 projects[redirect][subdir] = contrib
@@ -23,7 +23,7 @@ projects[globalredirect][version] = 1.5
 
 projects[xmlsitemap][type] = module
 projects[xmlsitemap][subdir] = contrib
-projects[xmlsitemap][version] = 2.0
+projects[xmlsitemap][version] = 2.2
 
 projects[metatag][type] = module
 projects[metatag][subdir] = contrib
