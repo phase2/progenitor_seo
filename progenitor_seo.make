@@ -8,6 +8,7 @@ projects[pathauto][download][url] = http://git.drupal.org/project/pathauto.git
 projects[pathauto][download][branch] = 7.x-1.x
 projects[pathauto][download][revision] = 8fb39ade0a10ca473fe61b1b1197ed137d673930
 projects[pathauto][patch][936222] = http://www.drupal.org/files/pathauto-persist-936222-130-pathauto-state.patch
+projects[pathauto][patch][2372101] = http://www.drupal.org/files/issues/mb-regex-encoding.patch
 
 projects[token][type] = module
 projects[token][subdir] = contrib
